@@ -2,3 +2,74 @@ html,body{
 	margin: 0;
 	padding: 0;
 }
+*{
+	box-sizing: border-box;
+}
+
+.sec-1,.sec-2,.sec-3{
+	width: 90%;
+	border: 1px solid black;
+	background-color: grey;
+	margin: 5%;
+
+}
+.sec-1 .sec-title{
+	background: pink;
+}
+.sec-2 .sec-title{
+	background: green;
+}
+.sec-3 .sec-title{
+	background: purple;
+}
+.container p{
+	margin: 0;
+	padding: 10px
+}
+.sec-title{
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+	border: 1px solid black;
+	width: 25%;
+	text-align: center;
+	padding: 5px;
+	position: relative;
+	left: 75%
+	
+}
+h1.title{
+	text-align: center;
+}
+@media (min-width: 768px) {
+	.sec-1,.sec-2,.sec-3{
+		float: left;
+		margin: 2.5%;
+		
+
+	}
+	.sec-1,.sec-2{
+
+		width: 45%;
+		
+
+
+	}
+
+	.sec-3{
+		width: 95%;
+
+	}
+
+}
+
+@media (min-width: 992px) {
+
+ .sec-1,.sec-2,.sec-3{
+
+ 	width: 30%;
+ 	float: left;
+ 	margin: 1.5%;
+
+ }
+}
