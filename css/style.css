@@ -42,23 +42,17 @@ h1.title{
 	text-align: center;
 }
 @media (min-width: 768px) {
+
 	.sec-1,.sec-2,.sec-3{
 		float: left;
 		margin: 2.5%;
-		
-
 	}
 	.sec-1,.sec-2{
-
 		width: 45%;
-		
-
-
 	}
 
 	.sec-3{
 		width: 95%;
-
 	}
 
 }
@@ -66,10 +60,9 @@ h1.title{
 @media (min-width: 992px) {
 
  .sec-1,.sec-2,.sec-3{
-
  	width: 30%;
  	float: left;
  	margin: 1.5%;
-
  }
+ 
 }
